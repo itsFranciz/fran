@@ -12,7 +12,7 @@ const toggleMenu = () => {
 <template>
 <nav class="sticky top-0 bg-black shadow-lg border-b-4 border-blue-500" style="z-index: 1000;">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto mb-0 xl:px-0 container">
-    <!-- Use router-link for logo to link to Home -->
+
     <router-link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img :src="franz_logo" class="h-20" alt="Franciz Logo" />
     </router-link>
@@ -33,18 +33,17 @@ const toggleMenu = () => {
     <div :class="{'hidden': !isMenuOpen, 'block': isMenuOpen}" class="w-full md:block md:w-auto b-5" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium font-Rubik text-base mt-4 rounded-lg bg-black md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent gap-7 md:mx-4">
           <li>
-          <!-- Use router-link for navigation to Home -->
-          <router-link to="/about" class="block py-2 px-3 md:p-0 text-white hover:text-blue-500 rounded">
+          <router-link to="/about" class="transition ease-in-out delay-150 duration-300 block py-2 px-3 md:p-0 text-white hover:text-blue-500 hover:scale-110 rounded"
+          >
             ABOUT
           </router-link>
         </li>
         <li>
-          <!-- Use router-link for navigation to Events -->
-          <router-link to="/events" class="block py-2 px-3 md:p-0 text-white hover:text-blue-500 rounded">
+          <router-link to="/projects" class="transition ease-in-out delay-150 duration-300 block py-2 px-3 md:p-0 text-white hover:text-blue-500 hover:scale-110 rounded">
             PROJECTS
           </router-link>
         </li>
-        <router-link to="/contact" class="block py-2 px-3 md:p-0 text-white hover:text-blue-500 rounded">
+        <router-link to="/contact" class="transition ease-in-out delay-150 duration-300 block py-2 px-3 md:p-0 text-white hover:text-blue-500 hover:scale-110 rounded">
             CONTACT
           </router-link>
      
