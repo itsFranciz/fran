@@ -7,9 +7,10 @@ import Header from '@/components/Header.vue';
   <div class="max-h-[5000px] min-h-screen overflow-y-auto bg-black">
     <Header />
     <div class="container mx-auto justify-center mt-16">
-      <h1 class="text-5xl font-bold text-center text-white font-serif mb-4">PROJECTS</h1> 
-      <p class="text-lg text-gray-600 text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corporis blanditiis amet aut. <br>
-         Vero aliquam voluptas nesciunt quae doloremque commodi aperiam aut ipsa deleniti quia blanditiis quidem, a non eum?</p>
+        <h1 class="text-5xl font-bold text-center text-white font-serif mb-4">PROJECTS</h1>
+        <p class="text-lg text-gray-600 text-center">Explore a collection of my projects designed to showcase my skills and expertise. <br>
+          Including the technologies I've used and the projects I've worked on. <br>
+        </p>
     </div>
     
   </div>
